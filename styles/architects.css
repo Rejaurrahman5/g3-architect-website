@@ -199,6 +199,23 @@ main > section{
   filter: grayscale(100%);
 
 }
+.footar{
+ 
+  background-color: rgba(255, 244, 231, 1);
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 200px;
+  width: 80%;
+}
+.footer-text{
+  padding: 30px 240px;
+  margin-top: 39px;
+}
+.raju{
+  margin-top: 130px;
+  align-items: center;
+  margin-left: 170px;
+}
 
 
 /* responsive media query */
