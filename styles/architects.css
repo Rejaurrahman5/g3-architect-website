@@ -220,7 +220,7 @@ main > section{
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-  .navbar, .nav-links, .teams, .features{
+  .navbar, .nav-links, .teams, .features, .raju{
     flex-direction: column;
   }
   .team-img-container,
@@ -228,6 +228,11 @@ main > section{
    .sponsor-companies{
     grid-template-columns: repeat(1, 1fr);
 
+  }
+  .raju{
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
   }
 
   .facts-container, .sponsor-companies{
@@ -253,7 +258,7 @@ main > section{
 }
 /* mediam size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams, .features{
+  .teams, .features, .raju{
     flex-direction: column;
   }
 
